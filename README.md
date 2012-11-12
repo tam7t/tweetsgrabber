@@ -11,6 +11,20 @@ Usage
 -----
     python tg.py
 
+Your web browser will be directed to twitter authentication page.  Once
+authenticated, input the provided PIN to the console.  The script will then
+create the following files:
+
+* friends.csv
+* followers.csv
+* timeline.csv
+
+The following elements have not been implemented:
+
+* lists
+* favorites
+* direct messages
+
 tweepy
 ------
   * timelines incorrectly use `page` for pagination.  According to latest
