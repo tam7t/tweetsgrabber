@@ -4,8 +4,11 @@ TweetsGrabber
 
 Installation
 ------------
-Pull a copy of this repo.  Included is a copy of the `tweepy` library.
-`tweepy` is available from [github](https://github.com/tweepy/tweepy).
+    git clone https://github.com/tam7t/tweetsgrabber.git
+    cd tweetsgrabber
+
+TweetsGrabber uses the `tweepy` library to communicate with twitter. `tweepy`
+is available from [github](https://github.com/tweepy/tweepy).
 
 Usage
 -----
