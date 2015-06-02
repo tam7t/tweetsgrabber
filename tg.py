@@ -11,11 +11,11 @@ import cgi
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key=secret.consumer_key
-consumer_secret=secret.consumer_secret.decode('rot13').encode('ascii')
+consumer_key="your key"
+consumer_secret="your secret"
 
 # The access tokens can be found on your applications's Details
-# page located at https://dev.twitter.com/apps (located 
+# page located at https://dev.twitter.com/apps (located
 # under "Your access token")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth_url = auth.get_authorization_url()
